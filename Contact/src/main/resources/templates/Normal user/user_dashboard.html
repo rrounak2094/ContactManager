@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="Normal user/base::layout(~{::section})">
+<head>
+<meta charset="UTF-8">
+<title>User Dashboard</title>
+</head>
+<body>
+
+<section>
+
+<h1>This is Private Dashboard</h1>
+
+<script >
+
+$(document).ready(()=>{
+	$('.item').removeClass("active");
+	$('#home-link').addClass("active");
+});
+
+</script>
+
+</section>
+
+</body>
+</html>
